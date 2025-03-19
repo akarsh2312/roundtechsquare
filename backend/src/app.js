@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use('/api', routes);
 
 // MongoDB connection
-console.log('MongoDB URI:', process.env.MONGODB_URI);
+// console.log('MongoDB URI:', process.env.MONGODB_URI);
 mongoose.connect(process.env.MONGODB_URI);
 
 mongoose.connection.once('open', () => {
