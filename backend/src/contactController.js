@@ -37,8 +37,7 @@ const createContact = async (req, res) => {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      // to: 'darsh@roundtechsquare.com, minakshi@roundtechsquare.com',
-      to:'kavyakhandelwal56@gmail.com',
+      to: 'darsh@roundtechsquare.com, minakshi@roundtechsquare.com',
       subject: 'New Contact Form Submission',
       text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`,
     };
