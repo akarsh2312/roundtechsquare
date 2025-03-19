@@ -1,6 +1,4 @@
-import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Youtube, MessageCircle } from 'lucide-react';
-
 const Header = () => {
   return (
     <header className="relative">
@@ -35,7 +33,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/logo.png" alt="Logo" className="w-10 h-10" />
+            <img src="/image.png" alt="Logo" className="w-10 h-10" />
             <div className="ml-3">
               <h1 className="text-white font-bold">KRYSTELLE ROMY</h1>
               <p className="text-white font-bold">RESIDENCE</p>
